@@ -29,16 +29,15 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
-              <br />
-              Web developer
+              Hello there! I am <strong>Wilson KOMLAN</strong>
+              <br />A full stack developer - Cloud enthousiast.
             </h2>
             <p>I have made few things check it out.</p>
           </header>
 
           <footer>
-            <Scroll type="id" element={'portfolio'}>
-              <a href="#portfolio" className="button">
+            <Scroll type="id" element={'about'}>
+              <a href="#about" className="button">
                 Show me
               </a>
             </Scroll>
@@ -52,14 +51,9 @@ const IndexPage = () => (
             <h2>Portfolio</h2>
           </header>
 
-          <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
-          </p>
+          <p>This section is under construction.</p>
 
-          <div className="row">
+          {/**<div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
@@ -114,7 +108,7 @@ const IndexPage = () => (
                 </header>
               </article>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
 
@@ -123,19 +117,21 @@ const IndexPage = () => (
           <header>
             <h2>About Me</h2>
           </header>
-
+{/**
           <a href="/#" className="image featured">
             <img src={pic8} alt="" />
-          </a>
-
+          </a> */}
+          <h3>
+            Full Stack <u>Developer</u> | Cloud <u>Developer</u>
+          </h3>
+          <br></br>
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I started my journey in developing app since 2010 after graduation.
+            Software development is my center of interest, and by the raising of
+            Cloud computing, I become a Cloud enthousiast because like it or
+            not, Cloud computing is being on the top Technologies to learn in
+            Computer world! As code geek, I like to share my code on Github and
+            discuss with Communities whether on Twitter or Discord.
           </p>
         </div>
       </section>
@@ -147,11 +143,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Please fill the below form to send me a quote request.
           </p>
 
           <form method="post" action="#">
