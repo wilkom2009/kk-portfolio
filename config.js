@@ -18,6 +18,11 @@ module.exports = {
       url: 'https://twitter.com/KomlanWilson',
     },
     {
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/wilkom2009',
+    },
+    {
       icon: 'fa-facebook',
       name: 'Facebook',
       url: 'https://facebook.com/wilkom2009',
