@@ -7,7 +7,11 @@ export default function PageFooter() {
         <li>&copy; Wilson KOMLAN. All rights reserved.</li>
         <li>
           Built using{' '}
-          <a href="https://www.gatsbyjs.com/starters/anubhavsrivastava/gatsby-starter-prologue">
+          <a
+            href="https://www.gatsbyjs.com/starters/anubhavsrivastava/gatsby-starter-prologue"
+            target="_blank"
+            rel="noreferrer"
+          >
             Gatsby Starter Prologue{' '}
           </a>
         </li>
