@@ -4,7 +4,7 @@ export default function PageFooter() {
   return (
     <div id="footer">
       <ul className="copyright">
-        <li>&copy; Wilson KOMLAN. All rights reserved.</li>
+        <li>&copy; {(new Date().getFullYear())} Wilson KOMLAN. All rights reserved.</li>
        {/** <li>
           Built using{' '}
           <a

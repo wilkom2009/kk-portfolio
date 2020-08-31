@@ -6,14 +6,16 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-176871094-1",
+        // this option places the tracking script into the head of the DOM
+        head: true,
       },
     },
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
