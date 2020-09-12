@@ -20,7 +20,6 @@ export default function ContactForm() {
     }),
     
     onSubmit(values, { resetForm }) {
-      alert(JSON.stringify(values, null, 2));
       try {
         fetch(GATEWAY_URL, {
           method: 'POST',
@@ -31,7 +30,6 @@ export default function ContactForm() {
             'Content-type': 'application/json; charset=UTF-8',
           },
         });
-        alert(JSON.stringify("Success!", null, 2));
         resetForm();
       } catch (error) {
         // handle server errors
