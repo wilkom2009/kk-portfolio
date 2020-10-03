@@ -135,8 +135,8 @@ const IndexPage = () => (
           </p>
           <p>
             Do you want to learn little yet proven programming tips? Visit my{' '}
-            <a href="https://blog.koffikomlan.co">blog</a> and
-            <a href="https://twitter.com/KomlanWilson"> my Twitter account</a>.
+            <a href="https://blog.koffikomlan.co" target="_blanck">blog</a> and
+            <a href="https://twitter.com/KomlanWilson" target="_blanck"> my Twitter account</a>.
           </p>
         </div>
       </section>
