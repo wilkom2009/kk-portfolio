@@ -118,7 +118,7 @@ const IndexPage = () => (
           <header>
             <h2>About Me</h2>
           </header>
-{/**
+          {/**
           <a href="/#" className="image featured">
             <img src={pic8} alt="" />
           </a> */}
@@ -131,8 +131,12 @@ const IndexPage = () => (
             Software development is my center of interest, and by the raising of
             Cloud computing, I become a Cloud enthousiast because like it or
             not, Cloud computing is being on the top Technologies to learn in
-            Computer world! As code geek, I like to share my code on Github and
-            discuss with Communities whether on Twitter or Discord.
+            Computer world!{' '}
+          </p>
+          <p>
+            Do you want to learn little yet proven programming tips? Visit my{' '}
+            <a href="https://blog.koffikomlan.co">blog</a> and
+            <a href="https://twitter.com/KomlanWilson"> my Twitter account</a>.
           </p>
         </div>
       </section>
@@ -143,13 +147,9 @@ const IndexPage = () => (
             <h2>Contact</h2>
           </header>
 
-          <p>
-            Please fill the below form to send me a quote request.
-          </p>
-          
-          <ContactForm/>
+          <p>Please fill the below form to send me a quote request.</p>
 
-          
+          <ContactForm />
         </div>
       </section>
     </div>
