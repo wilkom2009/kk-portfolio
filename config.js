@@ -1,5 +1,6 @@
 module.exports = {
   siteTitle: 'Wilson KOMLAN | Official web page', // <title>
+  siteDescription: 'Wilson KOMLAN, Web developer, Développeur web, Cloud developer, Développeur cloud, Software déveloper, Développeur, Java, React, Consultant IT, IT Consulting', // <title>
   manifestName: 'Prologue',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',

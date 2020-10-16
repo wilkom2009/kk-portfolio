@@ -285,6 +285,10 @@ header {
   > p {
     margin: 1em 0 0 0;
   }
+  > b {
+    font-weight: 300;
+    color: #666;
+  }
 }
 
 footer {
@@ -902,11 +906,15 @@ button,
     }
 
     &.three {
-      background-color: #ecf1f1;
+      background-color: #b7c2c2;
     }
 
     &.four {
-      background-color: #e8edec;
+      background-color: #ecf1f1;
+    }
+
+    &.five {
+      background-color: #f3fafaef;
     }
   }
 }
@@ -956,6 +964,9 @@ button,
       &.cover {
         padding: 5em 0;
       }
+    }
+    > p {
+      text-align: justify;
     }
   }
 }
