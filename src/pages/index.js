@@ -15,7 +15,7 @@ import pic8 from '../assets/images/cod2.jpg';
 import service from '../assets/images/service.webp';
 import contact from '../assets/images/contact1.jpg';
 import Scroll from '../components/Scroll';
-import SEO from "../components/seo";
+import SEO from '../components/seo';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -25,11 +25,15 @@ const sections = [
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
-const Config = require("../../config")
+const Config = require('../../config');
 
 const IndexPage = () => (
   <Layout>
-  <SEO title={Config.siteTitle} description={Config.siteDescription} meta={Config.siteKeywords}/>
+    <SEO
+      title={Config.siteTitle}
+      description={Config.siteDescription}
+      meta={Config.siteKeywords}
+    />
     <SideBar sections={sections} />
 
     <div id="main">
@@ -38,7 +42,7 @@ const IndexPage = () => (
           <header>
             <h2 className="alt">
               Hello there! I am <strong>Wilson KOMLAN</strong>
-              <br />A full stack developer - Cloud enthousiast.
+              <br />A full stack developer - Cloud developer.
             </h2>
             <p>I have made few things check it out.</p>
           </header>
@@ -125,11 +129,10 @@ const IndexPage = () => (
             </div>
             <div className="col-8 col-12-mobile">
               <p>
-                I started my journey in developing app since 2010 after
-                graduation. Software development is my center of interest, and
-                by the raising of Cloud computing, I become a Cloud enthousiast
-                because like it or not, Cloud computing is being on the top
-                Technologies to learn in Computer world!{' '}
+                I am a freelance full stack developer since 2010. I have a solid
+                background in Java and React, Spring boot and Bootstrap. I
+                can build AWS cloud-based apps and perform on-premises
+                migration to the cloud!{' '}
               </p>
               <p>
                 Do you want to learn little yet proven programming tips? Visit
