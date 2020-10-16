@@ -130,9 +130,10 @@ const IndexPage = () => (
             <div className="col-8 col-12-mobile">
               <p>
                 I am a freelance full stack developer since 2010. I have a solid
-                background in Java and React, Spring boot and Bootstrap. I
-                can build AWS cloud-based apps and perform on-premises
-                migration to the cloud!{' '}
+                background in Java and React, Spring boot and Bootstrap with
+                a both monolithic and microservice architectures proficiency. I
+                can build AWS cloud-based apps and perform on-premises migration
+                to the cloud!{' '}
               </p>
               <p>
                 Do you want to learn little yet proven programming tips? Visit
